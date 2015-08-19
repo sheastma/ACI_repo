@@ -7,7 +7,9 @@ switches in your ACI (Application Centric Infrastructure) fabric.
 <br>
 ##### Requires: #####
 Paramiko >= 1.13+ ( >=1.7.5+ if Python2)
+
 creds.csv - needs to be populated with fabric information
+
 paramiko expect - ( version 0.2)
      
 <br>  
