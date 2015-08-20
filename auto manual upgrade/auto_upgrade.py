@@ -39,7 +39,7 @@ def workon(host, username, password, scp_url, scp_pass):
     cmd1 = 'sshpass -p ' + scp_pass.rstrip() + ' scp -v -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null ' \
            + scp_url.rstrip() + ' /bootflash/'
     cmd2 = 'setup-bootvars.sh ' + scp_url[scp_url.rfind("/") + 1:].rstrip() + ' '
-    cmd3 = 'setup-clean-config.sh ; vsh -c "reloadg"'
+    cmd3 = 'setup-clean-config.sh ; vsh -c "reload"'
     ssh = paramiko.SSHClient()
     ssh.load_system_host_keys()
     ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
