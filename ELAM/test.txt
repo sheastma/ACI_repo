@@ -1,0 +1,313 @@
+
+
+
+ASIC       : 0
+In-select  : 3
+Out-select : 0
+Dir        : Ingress
+Alpine     : 0
+X_to_Y     : 1
+Outer L2 
+========= 
+L2 SNAP Valid         :0
+L2 CNTag Valid        :0
+L2 Qtag Vlan          :0
+L2 Qtag Cos           :0
+L2 Qtag de            :0
+L2 Qtag Valid         :0
+L2 Vntag Valid        :0
+L2 Vntag pointer      :0
+L2 Vntag source vif   :0
+L2 Vntag dest vif     :0
+L2 Src MAC            :0x005056b7f85d
+L2 Dest MAC           :0xffffffffffff
+L2 Hg2 Vlan           :0
+L2 Hg2 Cos            :0
+L2 Hg2 ppd type       :0
+L2 Hg2 Mirror         :0
+L2 Hg2 Opcode         :0
+L2 Hg2 Dst Pid        :0
+L2 Hg2 Dst Mod        :0
+L2 Hg2 Src Pid        :0
+L2 Hg2 Src Mod        :0
+L2 Hg2 l3             :0
+L2 Hg2 tc             :0
+L2 Hg2 dp             :0
+L2 Hg2 mcast          :0
+L2 Hg2 Valid          :0
+Outer L3 
+========= 
+L3 IP L3 Type         :0
+L3 IP Payload len     :0
+L3 IPv6 Valid         :0
+L3 IPv4 Version       :0
+L3 IPv4 Header len    :0
+L3 IPv4 DSCP          :0x0
+L3 IPv4 ECN           :0x0
+L3 IPv4 Packet len    :0
+L3 IPv4 More Frags    :0
+L3 IPv4 Frag off      :0
+L3 IPv4 TTL           :0
+L3 IPv4 Next Proto    :0
+L3 IPv4 Checksum      :0x0
+L3 Dest IP 0          :0x00000000
+L3 Dest IP 1          :0x00000000
+L3 Dest IP 2          :0x00000000
+L3 Dest IP 3          :0x01010101
+L3 Src IP 0           :0x00000000
+L3 Src IP 1           :0x00000000
+L3 Src IP 2           :0x00000000
+L3 Src IP 3           :0xcc00000b
+Outer L4 
+========= 
+L4 Source Port        :0
+L4 Dest Port          :0
+L4 Length             :0
+L4 Checksum           :0x0
+L4 Flags              :0x0
+L4 Type               :0
+
+Hardware Settings
+=================
+Instance 0
+==========
+GBL_C++:  [MSG]   - current data=0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003FFFFFFFFFFFC01415ADFE174000000000000000000000001
+GBL_C++:  [MSG]   - current mask=0x000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003FFFFFFFFFFFFFFFFFFFFFFFC000000000000000000000001
+
+Status: Initialized
+Status: Initialized
+Report for Instance 0
+=====================
+GBL_C++:  [INFO] LU dumpCaptureDataForLU: trig_addr0 = 153
+GBL_C++:  [INFO] LU dumpCaptureDataForLU: trig_addr1 = 152
+GBL_C++:  [INFO] LU dumpCaptureDataForLU: trig_addr3 = 152
+GBL_C++:  [MSG] ac_int<840, false> mth_elam::dumpCaptureDataForLU(bool, bool, u32):: Buf[152]: Time: 498 Data: 0x00_0000_0001_0044_0043_0134_c6c8_0000_0000_0000_0000_0000_0000_0100_2288_00a4_0001_0022_732c_0000_0000_0000_0000_0000_0001_ffff_fffe_0000_0000_0000_0000_0000_0000_0000_0000_0003_0000_2620_02c0_00cb_ffff_ffff_fffc_0141_5adf_e174_0000_0000_0000_0000_0000_00d9
+GBL_C++:  [MSG] LUX ELAM CAPTURE DATA INTO BUFFER: instance 0, select=3
+GBL_C++:  [MSG]   - captured data=0x01F20000000001004400430134C6C80000000000000000000000000100228800A400010022732C000000000000000000000001FFFFFFFE0000000000000000000000000000000000030000262002C000CBFFFFFFFFFFFC01415ADFE1740000000000000000000000D9
+GBL_C++:  [INFO] LU dumpCaptureDataForLU: trig_addr0 = 118
+GBL_C++:  [INFO] LU dumpCaptureDataForLU: trig_addr1 = 105
+GBL_C++:  [INFO] LU dumpCaptureDataForLU: trig_addr3 = 105
+GBL_C++:  [MSG] ac_int<840, false> mth_elam::dumpCaptureDataForLU(bool, bool, u32):: Buf[105]: Time: 13925 Data: 0x00_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_0000_01b0_0148_0000_0000_0000_000c_c800_9800_1011_0500_1910_0c80_0000_0000_0001_2000_0400_0000_0000_0320_1020_f4ff_c607_f040_c013_8007_0020_0021_8000_00d9
+GBL_C++:  [MSG] LUY ELAM CAPTURE DATA INTO BUFFER: instance 0, select=0
+GBL_C++:  [MSG]   - captured data=0x36650000000000000000000000000000000000000000000000000000000000000000000000000000000000000001B00148000000000000000CC80098001011050019100C80000000000001200004000000000003201020F4FFC607F040C013800700200021800000D9
+GBL_C++:  [MSG] LUX ELAM CAPTURE REPORT: instance 0
+GBL_C++:  [MSG]   - timestamp = 01F2
+GBL_C++:  [MSG]   - interrupt = 0
+GBL_C++:  [MSG]   - srcid = 0
+GBL_C++:  [MSG]   - pktid = 108
+GBL_C++:  [MSG]   - valid = 1
+GBL_C++:  [MSG]   - packet data is UNCAPTURED
+GBL_C++:  [MSG]   - packet = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+GBL_C++:  [MSG]   - luvec is INCOMPLETE
+GBL_C++:  [INFO] Decoded Dump of a Binary structure assumed to be of type: LU_VEC: [
+GBL_C++:  [INFO] parse_err: 0
+GBL_C++:  [INFO]  ids_fail: 0
+GBL_C++:  [INFO]  ids_code: 00
+GBL_C++:  [INFO]     spare: 0000000000000
+GBL_C++:  [INFO]    l2vec0: C000098800B00032FFFFFFFFFFFF005056B7F85D00000000000000000000
+GBL_C++:  [INFO]    l3vec0: 4008A20029000040089CCB0000000000000000000000007FFFFFFF800000000000000000000000000000000000
+GBL_C++:  [INFO]    l4vec0: 040110010C04D31B200000000000000000000000000
+GBL_C++:  [INFO]    l2vec1: 000000000000000000000000000000000000000000000000000000000000
+GBL_C++:  [INFO]    l3vec1: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+GBL_C++:  [INFO]    l4vec1: 0000000000000000000000000000000000000000000
+GBL_C++:  [INFO] ]
+GBL_C++:  [MSG]   - l2vec0 is complete
+GBL_C++:  [INFO] Decoded Dump of a Binary structure assumed to be of type: LU_VEC_L2: [
+GBL_C++:  [INFO]      hg2_vld: 1
+GBL_C++:  [INFO]     hg2_mcst: 1
+GBL_C++:  [INFO]       hg2_dp: 0
+GBL_C++:  [INFO]       hg2_tc: 0
+GBL_C++:  [INFO]       hg2_l3: 0
+GBL_C++:  [INFO]   hg2_srcmod: 00
+GBL_C++:  [INFO]   hg2_srcpid: 13
+GBL_C++:  [INFO]   hg2_dstmod: 10
+GBL_C++:  [INFO]   hg2_dstpid: 01
+GBL_C++:  [INFO]   hg2_opcode: 3
+GBL_C++:  [INFO]   hg2_mirror: 0
+GBL_C++:  [INFO] hg2_ppd_type: 0
+GBL_C++:  [INFO]   hg2_vid_hi: 00
+GBL_C++:  [INFO]   hg2_vid_lo: 32
+GBL_C++:  [INFO]        ce_da: FFFFFFFFFFFF
+GBL_C++:  [INFO]        ce_sa: 005056B7F85D
+GBL_C++:  [INFO]    vntag_vld: 0
+GBL_C++:  [INFO]   vntag_svif: 0000
+GBL_C++:  [INFO]   vntag_dvif: 0000
+GBL_C++:  [INFO]      vntag_l: 0
+GBL_C++:  [INFO]      vntag_p: 0
+GBL_C++:  [INFO]      vntag_e: 0
+GBL_C++:  [INFO]    qtag0_vld: 0
+GBL_C++:  [INFO]    qtag0_cos: 0
+GBL_C++:  [INFO]     qtag0_de: 0
+GBL_C++:  [INFO]   qtag0_vlan: 000
+GBL_C++:  [INFO]    qtag1_vld: 0
+GBL_C++:  [INFO]    qtag1_cos: 0
+GBL_C++:  [INFO]     qtag1_de: 0
+GBL_C++:  [INFO]   qtag1_vlan: 000
+GBL_C++:  [INFO]    cntag_vld: 0
+GBL_C++:  [INFO]     snap_vld: 0
+GBL_C++:  [INFO]        spare: 00
+GBL_C++:  [INFO] ]
+GBL_C++:  [MSG]   - l3vec0 is complete
+GBL_C++:  [INFO] Decoded Dump of a Binary structure assumed to be of type: LU_VEC_L3: [
+GBL_C++:  [INFO]    l3_type: 2
+GBL_C++:  [INFO]   pyld_len: 00
+GBL_C++:  [INFO]   ce_etype: 2288
+GBL_C++:  [INFO]    ce_pyld: 00A400010022732C0000000000000000
+GBL_C++:  [INFO]   ce_spare: 00000000FFFFFFFF0000000000000000000000000000000000
+GBL_C++:  [INFO]   fc_etype: 2288
+GBL_C++:  [INFO]    fc_esof: 0
+GBL_C++:  [INFO]   fc_r_ctl: 0A
+GBL_C++:  [INFO]    fc_d_id: 400010
+GBL_C++:  [INFO]  fc_cs_ctl: 02
+GBL_C++:  [INFO]    fc_s_id: 2732C0
+GBL_C++:  [INFO]    fc_type: 00
+GBL_C++:  [INFO]   fc_f_ctl: 000000
+GBL_C++:  [INFO]  fc_df_ctl: 00
+GBL_C++:  [INFO]   fc_ox_id: 0000
+GBL_C++:  [INFO]   fc_rx_id: 0000
+GBL_C++:  [INFO]    fc_pyld: 00001FFFFFFFE0000000000000000000
+GBL_C++:  [INFO]   fc_spare: 000000000000000
+GBL_C++:  [INFO]      ip_v6: 0
+GBL_C++:  [INFO]     ip_ver: 4
+GBL_C++:  [INFO]      ip_hl: 5
+GBL_C++:  [INFO]    ip_dscp: 04
+GBL_C++:  [INFO]     ip_ecn: 0
+GBL_C++:  [INFO]   ip_pklen: 0148
+GBL_C++:  [INFO]      ip_mf: 0
+GBL_C++:  [INFO] ip_fragoff: 0000
+GBL_C++:  [INFO]     ip_ttl: 80
+GBL_C++:  [INFO]    ip_prot: 11
+GBL_C++:  [INFO]    ip_csum: 3996
+GBL_C++:  [INFO]      ip_da: 000000000000000000000000FFFFFFFF
+GBL_C++:  [INFO]      ip_sa: 00000000000000000000000000000000
+GBL_C++:  [INFO]  ip_v6_hbh: 0
+GBL_C++:  [INFO] ip_v6_frag: 0
+GBL_C++:  [INFO]   ip_spare: 0000
+GBL_C++:  [INFO]   ar_etype: 2288
+GBL_C++:  [INFO]     ar_hrd: 00A4
+GBL_C++:  [INFO]     ar_pro: 0001
+GBL_C++:  [INFO]     ar_hln: 00
+GBL_C++:  [INFO]     ar_pln: 22
+GBL_C++:  [INFO]      ar_op: 732C
+GBL_C++:  [INFO]     ar_sha: 000000000000
+GBL_C++:  [INFO]     ar_spa: 00000000
+GBL_C++:  [INFO]     ar_tha: 0001FFFFFFFE
+GBL_C++:  [INFO]     ar_tpa: 00000000
+GBL_C++:  [INFO]   ar_spare: 0000000000000000000000000000
+GBL_C++:  [INFO] ]
+GBL_C++:  [MSG]   - l4vec0 is complete
+GBL_C++:  [INFO] Decoded Dump of a Binary structure assumed to be of type: LU_VEC_L4: [
+GBL_C++:  [INFO]       l4_type: 1
+GBL_C++:  [INFO]         l4_sp: 0044
+GBL_C++:  [INFO]         l4_dp: 0043
+GBL_C++:  [INFO]        l4_len: 0134
+GBL_C++:  [INFO]       l4_csum: C6C8
+GBL_C++:  [INFO]       l4_flag: 00
+GBL_C++:  [INFO]      tn_nonce: 0
+GBL_C++:  [INFO]        tn_lsb: 0
+GBL_C++:  [INFO] tn_nonce_info: 000000
+GBL_C++:  [INFO]   tn_lsb_info: 00
+GBL_C++:  [INFO]     tn_seg_id: 000000
+GBL_C++:  [INFO]         spare: 000
+GBL_C++:  [INFO]       nd_type: 00
+GBL_C++:  [INFO]       nd_code: 44
+GBL_C++:  [INFO]      nd_flags: 00
+GBL_C++:  [INFO]     nd_target: 430134C6C80000000000000000000000
+GBL_C++:  [INFO]      nd_spare: 0000
+GBL_C++:  [INFO] ]
+GBL_C++:  [MSG]   - l2vec1 is UNCAPTURED
+GBL_C++:  [MSG]   - l3vec1 is UNCAPTURED
+GBL_C++:  [MSG]   - l4vec1 is UNCAPTURED
+GBL_C++:  [MSG]   - pktrw is UNCAPTURED
+GBL_C++:  [MSG] LUY ELAM CAPTURE REPORT: instance 0
+GBL_C++:  [MSG]   - timestamp = 3665
+GBL_C++:  [MSG]   - interrupt = 0
+GBL_C++:  [MSG]   - srcid = 0
+GBL_C++:  [MSG]   - pktid = 108
+GBL_C++:  [MSG]   - valid = 1
+GBL_C++:  [MSG]   - packet fifo is UNCAPTURED
+GBL_C++:  [MSG]   - packet fifo = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+GBL_C++:  [MSG]   - packet data is INCOMPLETE
+GBL_C++:  [MSG]   - packet data = 000000000000006C00520000000000000003320026000404414006440320000000000000480001000000000000C804083D3FF181FC103004E001C00800086000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+GBL_C++:  [MSG]   - pktrw is complete
+GBL_C++:  [INFO] Decoded Dump of a Binary structure assumed to be of type: pktrw: [
+GBL_C++:  [INFO]         pktfmt0: 000000
+GBL_C++:  [INFO]         pktfmt1: 000000
+GBL_C++:  [INFO]           srcid: 00
+GBL_C++:  [INFO]           pktid: 06C
+GBL_C++:  [INFO]        len_type: 0
+GBL_C++:  [INFO]        len_info: 0148
+GBL_C++:  [INFO]   capture_tstmp: 0
+GBL_C++:  [INFO]           tstmp: 00000000
+GBL_C++:  [INFO]        pkttstmp: 000000
+GBL_C++:  [INFO]            drop: 0
+GBL_C++:  [INFO]        pkt_type: 0
+GBL_C++:  [INFO]        op_outer: 1
+GBL_C++:  [INFO]        op_vntag: 2
+GBL_C++:  [INFO]         op_qtag: 3
+GBL_C++:  [INFO]        op_inner: 1
+GBL_C++:  [INFO]      hg2_srcmod: 00
+GBL_C++:  [INFO]      hg2_srcpid: 13
+GBL_C++:  [INFO]      hg2_dstmod: 00
+GBL_C++:  [INFO]      hg2_dstpid: 02
+GBL_C++:  [INFO]      hg2_opcode: 0
+GBL_C++:  [INFO]        hg2_lbid: 11
+GBL_C++:  [INFO]          hg2_tc: 0
+GBL_C++:  [INFO] hg2_tc_sup_copy: 5
+GBL_C++:  [INFO]        hg2_ppd2: 0
+GBL_C++:  [INFO]      hg2_vid_hi: 00
+GBL_C++:  [INFO]      hg2_vid_lo: 32
+GBL_C++:  [INFO]             ecn: 0
+GBL_C++:  [INFO]        loopback: 1
+GBL_C++:  [INFO]       uc_routed: 0
+GBL_C++:  [INFO]         adj_vld: 0
+GBL_C++:  [INFO]           vlan0: 032
+GBL_C++:  [INFO]             cos: 0
+GBL_C++:  [INFO]              de: 0
+GBL_C++:  [INFO]      vntag_svif: 0000
+GBL_C++:  [INFO]       adj_index: 0000
+GBL_C++:  [INFO]         ttl_cio: 0
+GBL_C++:  [INFO]         ttl_coi: 0
+GBL_C++:  [INFO]         ecn_cio: 0
+GBL_C++:  [INFO]         ecn_coi: 0
+GBL_C++:  [INFO]           vlan1: 000
+GBL_C++:  [INFO]            dscp: 04
+GBL_C++:  [INFO]             ttl: 80
+GBL_C++:  [INFO]          ol_idx: 0
+GBL_C++:  [INFO]          ol_vpc: 0
+GBL_C++:  [INFO]    ol_encap_idx: 0040
+GBL_C++:  [INFO]        ol_ce_sa: 000000000032
+GBL_C++:  [INFO]          ol_cos: 0
+GBL_C++:  [INFO]           ol_de: 0
+GBL_C++:  [INFO]         ol_dscp: 04
+GBL_C++:  [INFO]          ol_ecn: 0
+GBL_C++:  [INFO]          ol_ttl: 20
+GBL_C++:  [INFO]        ol_segid: F4FFC6
+GBL_C++:  [INFO]         ol_ftag: 0
+GBL_C++:  [INFO]       ol_udp_sp: 7F04
+GBL_C++:  [INFO]         ol_mark: 0
+GBL_C++:  [INFO]           ol_lb: 0
+GBL_C++:  [INFO]           ol_dl: 0
+GBL_C++:  [INFO]            ol_e: 0
+GBL_C++:  [INFO]           ol_sp: 1
+GBL_C++:  [INFO]           ol_dp: 1
+GBL_C++:  [INFO]        ol_vpath: 0
+GBL_C++:  [INFO]          ol_dre: 0
+GBL_C++:  [INFO]     ol_fb_vpath: 2
+GBL_C++:  [INFO]    ol_fb_metric: 3
+GBL_C++:  [INFO]          sclass: 8007
+GBL_C++:  [INFO]       lat_index: 000
+GBL_C++:  [INFO]      lat_update: 1
+GBL_C++:  [INFO]     src_tep_idx: 0000
+GBL_C++:  [INFO]          vpc_df: 1
+GBL_C++:  [INFO]         transit: 0
+GBL_C++:  [INFO]      excep_case: 0
+GBL_C++:  [INFO]      brcm_proxy: 0
+GBL_C++:  [INFO]    sup_redirect: 1
+GBL_C++:  [INFO]           mcast: 1
+GBL_C++:  [INFO]           spare: 0000
+GBL_C++:  [INFO] ]
+GBL_C++:  [MSG]   - sideband is UNCAPTURED
+
+
+
