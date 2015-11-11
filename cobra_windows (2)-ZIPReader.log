@@ -1,0 +1,25 @@
+[2/5/2015 12:55:36 PM] ZIP Reader Version 14.00.0010 Build 1029
+[2/5/2015 12:55:37 PM] Loading C:\Users\sheastma\ACI_repo\cobra_windows.zip
+	0 errors/warnings
+[2/5/2015 12:55:37 PM] Finished.
+[2/5/2015 12:55:37 PM] Extracting C:\Users\sheastma\ACI_repo\cobra_windows.zip
+	Inflating C:\Users\sheastma\ACI_repo\cobra_windows (2)\cobra_windows\acicobramodel.egg
+		CRC32 verified
+	Inflating C:\Users\sheastma\ACI_repo\cobra_windows (2)\cobra_windows\acicobrasdk.egg
+		CRC32 verified
+	Inflating C:\Users\sheastma\ACI_repo\cobra_windows (2)\cobra_windows\download_cobra.ps1
+		CRC32 verified
+	Inflating C:\Users\sheastma\ACI_repo\cobra_windows (2)\cobra_windows\easygui.py
+		CRC32 verified
+	Inflating C:\Users\sheastma\ACI_repo\cobra_windows (2)\cobra_windows\ez_setup.py
+		CRC32 verified
+	Inflating C:\Users\sheastma\ACI_repo\cobra_windows (2)\cobra_windows\get-pip.py
+		CRC32 verified
+	Inflating C:\Users\sheastma\ACI_repo\cobra_windows (2)\cobra_windows\setup.py
+		CRC32 verified
+	Inflating C:\Users\sheastma\ACI_repo\cobra_windows (2)\cobra_windows\test_connection.py
+		CRC32 verified
+	Extracted 8 file(s)/folder(s)
+	Skipped 0 file(s)/folder(s)
+	0 errors/warnings
+[2/5/2015 12:55:38 PM] Finished.

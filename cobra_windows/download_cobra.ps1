@@ -6,8 +6,8 @@ pip uninstall acicobra
 pip install --use-wheel pyopenssl
 $name = Read-Host 'What version of code are you running i.e. 2j?'
 
-$as = "acicobra-1.0_" + $name + "-py2.7.egg"
-$as_2 = "acimodel-1.0_" + $name + "-py2.7.egg"
+$as = "acicobra-1.0_2m-py2.7.egg"
+$as_2 = "acimodel-1.0_2m-py2.7.egg"
 
 Get-ChildItem acicobrasdk.egg | Rename-Item -NewName { $_.name -replace "acicobrasdk.egg", $as}
 Get-ChildItem acicobramodel.egg | Rename-Item -NewName { $_.name -replace "acicobramodel.egg", $as_2}
